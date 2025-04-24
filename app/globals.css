@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+  --midnight-blue: #1b1c37;
+  --purple-gradient: #675ce7;
+
 }
 
 @theme inline {
@@ -12,15 +14,14 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme{
+  --color-midnight-blue: #1b1c37;
+  --color-purple-gradient: #675ce7;
 }
 
+
 body {
-  background: var(--background);
+  background: var(--midnight-blue);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
