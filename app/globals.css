@@ -49,7 +49,7 @@ body {
   opacity: 0;
   animation: fadeCycle 8s infinite;
   text-align: center;
-  width: 50%;
+  width: fit-content;
 }
 
 .text-cycler span:nth-child(1) {
@@ -67,7 +67,7 @@ body {
 
 @keyframes fadeCycle {
   0%   { opacity: 0; }
-  10%  { opacity: 0; }
+  10%  { opacity: 1; }
   25%  { opacity: 1; }
   35%  { opacity: 0; }
   100% { opacity: 0; }
