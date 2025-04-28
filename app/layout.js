@@ -25,17 +25,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="w-screen">
       <body
       
-        className={`${montserrat.variable} antialiased h-full`}
+        className={`${montserrat.variable} antialiased h-full w-full min-w-[600px] `}
       >
         <Header/>
-        <div className="pt-24">
+        <div className="pt-24 w-fit">
           {children}
         </div>
-        <footer className="w-full h-1/2 absolute">
-          <Footer/>
+        <footer className="w-full h-1/2 absolute min-w-[600px]">
+          <Footer />
         </footer>
       </body>
     </html>
