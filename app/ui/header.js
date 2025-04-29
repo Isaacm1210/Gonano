@@ -22,41 +22,49 @@ export default function Header() {
 
                 </div>
                 <div className="w-3/5 flex justify-evenly font-semibold">
-                    <h3 className="hover:text-purple-gradient" onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
-                        {/* <Link href={"/products"}> */}
+                    <div className="hover:text-purple-gradient cursor-default h-8 py-1" onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
+                        <h3 >
+                            {/* <Link href={"/products"}> */}
                             Products
-                        {/* </Link> */}
+                            {/* </Link> */}</h3>
                         {isOpen && (
-                            <div className="absolute text-black bg-white flex flex-col justify-evenly h-60 w-60 rounded-sm">
-                                <div>
-                                    <Link href={"/products/shingle"}>Shingle Saver</Link>
-                                </div>
-                                <div>
-                                    <Link href={"/products/wood"}>Wood Saver</Link>
-                                </div>
-                                <div>
-                                    <Link href={"/products/concrete"}>Concrete Saver</Link>
-                                </div>
+                            <div className="absolute text-black bg-white flex flex-col justify-evenly h-52 w-2xs font-medium z-20">
+                                <Link href={"/products/shingle"} className="h-1/3 hover:bg-purple-gradient p-2">
+                                    <h2>Shingle Saver</h2>
+                                    <p className="text-sm font-normal my-auto">Extend the life of your Shingles</p>
+                                </Link>
+                                <Link href={"/products/wood"} className="h-1/3 hover:bg-purple-gradient p-2">
+                                    <h2>Wood Saver</h2>
+                                    <p className="text-sm font-normal">Extend the life Wood surfaces</p>
+                                </Link>
+                                <Link href={"/products/concrete"} className="h-1/3 hover:bg-purple-gradient p-2">
+                                    <h2>Concrete Saver</h2>
+                                    <p className="text-sm font-normal">Extend the life of your Concrete</p>
+                                </Link>
+
                             </div>
                         )}
+                    </div>
 
-                    </h3>
-                    <h3 className="hover:text-purple-gradient">
+
+
+
+                    <h3 className="hover:text-purple-gradient h-8 py-1">
                         <Link href={"/about"}>
                             About
                         </Link>
                     </h3>
-                    <h3 className="hover:text-purple-gradient">
+                    <h3 className="hover:text-purple-gradient h-8 py-1">
                         <Link href={"/science"}>
                             Science
                         </Link>
                     </h3>
-                    <h3 className="hover:text-purple-gradient">
+                    <h3 className="hover:text-purple-gradient h-8 py-1">
                         <Link href={"/articles"}>
                             Articles
                         </Link>
                     </h3>
-                    <h3 className="hover:text-purple-gradient">PLACEHOLDER</h3>
+                    <h3 className="hover:text-purple-gradient h-8 py-1">PLACEHOLDER</h3>
                 </div>
 
             </div>

@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         className={`${montserrat.variable} antialiased h-full w-full min-w-[600px] `}
       >
         <Header/>
-        <div className="pt-24 w-fit">
+        <div className="pt-24">
           {children}
         </div>
         <footer className="w-full h-1/2 absolute min-w-[600px]">

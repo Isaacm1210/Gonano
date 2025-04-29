@@ -7,6 +7,8 @@
 
 }
 
+html { scroll-behavior: smooth; }
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -17,7 +19,7 @@
 @theme{
   --color-midnight-blue: #1b1c37;
   --color-purple-gradient: #675ce7;
-
+  --color-dark-purple: #110537;
   --animate-change-text: change-text 5s ease-in-out infinite
 
  
