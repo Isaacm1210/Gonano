@@ -70,7 +70,7 @@ export default function Science() {
             <h1 className="text-6xl font-bold my-5">Permanent Structure Modification</h1>
             <div className="w-2/3 m-auto">
                 <h2 className="text-2xl">
-                    GoNano's technology doesn&apos;t add a protective layer, like traditional sealants, nor does it simply replace lost
+                    GoNano&apos;s technology doesn&apos;t add a protective layer, like traditional sealants, nor does it simply replace lost
                     oil: it modifies and enhances the molecular structure of asphalt shingles permenantly.
                 </h2>
                 
