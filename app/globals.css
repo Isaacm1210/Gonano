@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 :root {
-
   --midnight-blue: #1b1c37;
   --purple-gradient: #675ce7;
 
@@ -20,8 +19,8 @@ html { scroll-behavior: smooth; }
   --color-midnight-blue: #1b1c37;
   --color-purple-gradient: #675ce7;
   --color-dark-purple: #110537;
-  --animate-change-text: change-text 5s ease-in-out infinite
-
+  --animate-change-text: change-text 5s ease-in-out infinite;
+  --color-orange-gradient: #e76e37;
  
 }
 
@@ -44,6 +43,7 @@ body {
   background: var(--midnight-blue);
   color: #ffff;
   font-family: Montserrat, sans-serif;
+  overflow-x: hidden;
 }
 
 .text-cycler span {
@@ -69,7 +69,7 @@ body {
 
 @keyframes fadeCycle {
   0%   { opacity: 0; }
-  10%  { opacity: 1; }
+  10%  { opacity: 0; }
   25%  { opacity: 1; }
   35%  { opacity: 0; }
   100% { opacity: 0; }

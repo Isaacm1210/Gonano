@@ -6,7 +6,7 @@ import { useState } from "react"
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false)
     return (
-        <div className="fixed w-full bg-midnight-blue/80 h-24 z-20 flex justify-center">
+        <div className="fixed w-full bg-midnight-blue/80 h-24 z-20 sm:flex justify-center hidden">
             <div className="w-full px-20 flex justify-between items-center opacity-100">
                 <div className="w-1/5 flex justify-center">
                     <Link
@@ -22,7 +22,7 @@ export default function Header() {
 
                 </div>
                 <div className="w-3/5 flex justify-evenly font-semibold">
-                    <div className="hover:text-purple-gradient cursor-default h-8 py-1" onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
+                    <div className="hover:text-purple-gradient cursor-default h-8 py-1" onClick={() => setIsOpen(!isOpen)}>
                         <h3 >
                             {/* <Link href={"/products"}> */}
                             Products
