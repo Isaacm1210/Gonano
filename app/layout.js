@@ -28,13 +28,13 @@ export default function RootLayout({ children }) {
     <html lang="en" className="w-lvw">
       <body
       
-        className={`${montserrat.variable} antialiased h-full w-lvw min-w-[600px] `}
+        className={`${montserrat.variable} antialiased h-full w-full`}
       >
         <Header/>
-        <div className="pt-24">
+        <div className="sm:pt-24">
           {children}
         </div>
-        <footer className="w-lvw h-1/2 absolute min-w-[600px]">
+        <footer className="w-full h-1/2 absolute">
           <Footer />
         </footer>
       </body>

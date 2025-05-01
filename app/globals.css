@@ -43,7 +43,6 @@ body {
   background: var(--midnight-blue);
   color: #ffff;
   font-family: Montserrat, sans-serif;
-  overflow-x: hidden;
 }
 
 .text-cycler span {
