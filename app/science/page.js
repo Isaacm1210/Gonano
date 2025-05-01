@@ -62,7 +62,7 @@ export default function Science() {
                 For GoNano to earn a Class 4 certification, a 50.88mm(2-in) diameter steel ball
                 was dropped from 20 feet above a vulnerable section of a shingled roof. Following these tests,
                 roofs treated with GoNano showed no signs of damage and/or cracking.
-                <span className="font-semibold"> One treatment from GoNano’s sealant transforms Class 1 shingles into Class 3,
+                <span className="font-semibold"> One treatment from GoNano&apos;s sealant transforms Class 1 shingles into Class 3,
                     and two treatments into Class 4.</span>
             </p>
         </section>
@@ -70,7 +70,7 @@ export default function Science() {
             <h1 className="text-6xl font-bold my-5">Permanent Structure Modification</h1>
             <div className="w-2/3 m-auto">
                 <h2 className="text-2xl">
-                    GoNano's technology doesn’t add a protective layer, like traditional sealants, nor does it simply replace lost
+                    GoNano's technology doesn&apos;t add a protective layer, like traditional sealants, nor does it simply replace lost
                     oil: it modifies and enhances the molecular structure of asphalt shingles permenantly.
                 </h2>
                 
@@ -101,13 +101,13 @@ export default function Science() {
             <h1 className="text-6xl font-bold my-5">Environmental Impacts</h1>
             <div className="w-2/3 m-auto mt-10">
                 <p className="text-2xl ">
-                    GoNano’s technology has been categorizedin accordance with the Occupational Safety and 
+                    GoNano&apos;s technology has been categorizedin accordance with the Occupational Safety and 
                     HealthAdministration standards (OHSA) as being:
                 </p>
                 <ol className="text-xl w-fit text-left m-auto mt-4 list-decimal">
-                    <li>"Quickly biodegradable"</li>
-                    <li>"No bioaccumulation potential"</li>
-                    <li>"No harm to aquatic organisms"</li>
+                    <li>&quot;Quickly biodegradable&quot;</li>
+                    <li>&quot;No bioaccumulation potential&quot;</li>
+                    <li>&quot;No harm to aquatic organisms&quot;</li>
                 </ol>
                 <p className="text-2xl mt-10">
                 GoNano is therefore <span className="font-bold">safe for the environment and on human health.</span>
