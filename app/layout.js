@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         <div className="sm:pt-24">
           {children}
         </div>
-        <footer className="w-full h-1/2 absolute">
+        <footer className="w-lvw min-h-1/2 absolute">
           <Footer />
         </footer>
       </body>

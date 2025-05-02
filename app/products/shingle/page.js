@@ -57,10 +57,10 @@ export default function Shingle() {
                 <div className="w-3/4 text-center m-auto h-[200px]">
                     <div className="max-w-[170px] w-1/4 m-auto mb-3">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_bgCarrier" strokewidth="0"></g>
+                            <g id="SVGRepo_tracerCarrier" strokelinecap="round" strokelinejoin="round"></g>
                             <g id="SVGRepo_iconCarrier">
-                                <path d="M12 17L9 20M12 17L15 20M12 17V12M12 17V21M12 7L9 4M12 7L15 4M12 7V12M12 7V3M12 12L7.66985 9.49995M12 12L16.3301 14.4999M12 12L7.66985 14.4999M12 12L16.3301 9.49995M16.3301 14.4999L17.4282 18.598M16.3301 14.4999L20.4282 13.4019M16.3301 14.4999L19.7943 16.5M7.66985 9.49995L3.57178 10.598M7.66985 9.49995L6.57178 5.40187M7.66985 9.49995L4.20581 7.5M16.3301 9.49995L20.4282 10.598M16.3301 9.49995L17.4282 5.40187M16.3301 9.49995L19.7943 7.5M7.66985 14.4999L6.57178 18.598M7.66985 14.4999L3.57178 13.4019M7.66985 14.4999L4.20581 16.5" stroke="#7094ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M12 17L9 20M12 17L15 20M12 17V12M12 17V21M12 7L9 4M12 7L15 4M12 7V12M12 7V3M12 12L7.66985 9.49995M12 12L16.3301 14.4999M12 12L7.66985 14.4999M12 12L16.3301 9.49995M16.3301 14.4999L17.4282 18.598M16.3301 14.4999L20.4282 13.4019M16.3301 14.4999L19.7943 16.5M7.66985 9.49995L3.57178 10.598M7.66985 9.49995L6.57178 5.40187M7.66985 9.49995L4.20581 7.5M16.3301 9.49995L20.4282 10.598M16.3301 9.49995L17.4282 5.40187M16.3301 9.49995L19.7943 7.5M7.66985 14.4999L6.57178 18.598M7.66985 14.4999L3.57178 13.4019M7.66985 14.4999L4.20581 16.5" stroke="#7094ff" strokewidth="1.5" strokelinecap="round" strokelinejoin="round"></path>
                             </g>
                         </svg>
                     </div>
@@ -69,7 +69,7 @@ export default function Shingle() {
                 </div>
             </div>
         </section>
-        <section id="ShingleSaver" className="min-h-screen bg-midnight-blue py-28">
+        <section id="ShingleSaver" className="min-h-screen bg-dark-purple py-28">
             <div className="w-4/5 m-auto text-center h-1/3">
                 <Image src={"/products/cans/Shingle_Saver.png"} width={1936} height={2224} alt="Shing Saver Can" className="max-w-1/2 h-fit m-auto md:hidden block" />
                 <h1 className="text-6xl font-bold ">SHINGLE SAVER</h1>
@@ -193,7 +193,7 @@ export default function Shingle() {
                 </ul>
             </div>
         </section>
-        <section id="Compare" className="bg-white w-full h-full overflow-scroll">
+        <section id="Compare" className="bg-white w-full h-full overflow-scroll overflow-y-hidden">
             <Image src={"/products/Product_chart.png"} width={1900} height={1000} alt="Product comparison chart" className="w-3/4 m-auto min-w-[900px] overflow-scroll " />
         </section>
     </div>

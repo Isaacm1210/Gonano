@@ -21,7 +21,7 @@ html { scroll-behavior: smooth; }
   --color-dark-purple: #110537;
   --animate-change-text: change-text 5s ease-in-out infinite;
   --color-orange-gradient: #e76e37;
- 
+ --breakpoint-xs: 30rem;
 }
 
 @keyframes change-text {
@@ -43,6 +43,7 @@ body {
   background: var(--midnight-blue);
   color: #ffff;
   font-family: Montserrat, sans-serif;
+  overflow-x: hidden;
 }
 
 .text-cycler span {
