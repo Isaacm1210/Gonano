@@ -2,6 +2,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
+import logo from "../../public/Gonano_Logo.svg"
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false)
@@ -13,7 +14,7 @@ export default function Header() {
                         href={"/"}
                     >
                         <Image
-                            src={"/Gonano_logo.svg"}
+                            src={logo}
                             width={125}
                             height={90}
                             alt="Gonano LOGO Image"
