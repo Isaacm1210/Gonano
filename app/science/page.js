@@ -7,7 +7,7 @@ export const metadata = {
 
 
 export default function Science() {
-    return <div className="w-full">
+    return <div className="w-full sm:pt-24">
         <section id="title" className="min-h-96 xs:p-20 pt-20 px-2 w-full">
             <h1 className="w-fit p-2 bg-offWhite text-dark-purple font-bold rounded-2xl m-auto text-center">The Science Behind GoNano</h1>
             <div className="mb-30 mt-10 mx-auto lg:w-1/2 text-center">

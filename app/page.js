@@ -7,7 +7,7 @@ export default function Home() {
 
 
   return (
-    <div className="w-lvw">
+    <div className="w-lvw sm:pt-24">
       <main className="bg-midnight-blue z-10">
         <section id="Home" className="h-[100vh] w-full flex flex-col justify-evenly items-center sm:text-4xl text-2xl font-semibold bg-[url(/Roof-Spray-2.PNG)] bg-cover">
           <div className="text-center w-2/3 ">
