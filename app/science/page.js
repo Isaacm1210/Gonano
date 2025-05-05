@@ -89,17 +89,17 @@ export default function Science() {
             <h1 className="sm:text-6xl xs:text-5xl text-4xl font-bold my-5">GoNano Advantages</h1>
             <div className="flex justify-evenly lg:w-4/5 m-auto pt-2 sm:flex-row flex-col">
                 <div className="sm:w-1/3 w-4/5 m-auto">
-                    <Image src="/icons/Protected_icon.svg" width={300} height={300} alt="Shield With Check Mark icon" className="m-auto sm:2/3 w-1/2" />
+                    <Image src="/icons/Protected_Icon.svg" width={300} height={300} alt="Shield With Check Mark icon" className="m-auto sm:2/3 w-1/2" />
                     <h2 className="m-3 mt-0 text-3xl font-medium">Improved flexibility</h2>
                     <p>Elastic strain resilience, high tensile strength to pressure and load, fracture aversion. </p>
                 </div>
                 <div className="sm:w-1/3 w-4/5 m-auto">
-                    <Image src="/icons/repels_icon.svg" width={300} height={300} alt="Repels Water Icon" className="m-auto sm:2/3 w-1/2" />
+                    <Image src="/icons/Repels_Icon.svg" width={300} height={300} alt="Repels Water Icon" className="m-auto sm:2/3 w-1/2" />
                     <h2 className="m-3 mt-0 text-3xl font-medium">Hydrophobic</h2>
                     <p>Impervious to moisture infiltration.</p>
                 </div>
                 <div className="sm:w-1/3 w-4/5 m-auto">
-                    <Image src="/icons/Improves-roof-health_icon.svg" width={300} height={300} alt="Increased Health Icon" className="m-auto sm:2/3 w-1/2 " />
+                    <Image src="/icons/Improves-roof-health_Icon.svg" width={300} height={300} alt="Increased Health Icon" className="m-auto sm:2/3 w-1/2 " />
                     <h2 className="m-3 mt-0 text-3xl font-medium">Adaptable fatigue life</h2>
                     <p>Endures greater cycles and seasons of stress.</p>
                 </div>

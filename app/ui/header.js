@@ -2,6 +2,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
+import logo from "../../public/Gonano_Logo.svg"
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false)
@@ -13,7 +14,7 @@ export default function Header() {
                         href={"/"}
                     >
                         <Image
-                            src={"/Gonano_logo.svg"}
+                            src={logo}
                             width={125}
                             height={90}
                             alt="Gonano LOGO Image"
@@ -23,10 +24,7 @@ export default function Header() {
                 </div>
                 <div className="w-3/5 flex justify-evenly font-semibold">
                     <div className="hover:text-purple-gradient cursor-default h-8 py-1" onClick={() => setIsOpen(!isOpen)}>
-                        <h3 >
-                            {/* <Link href={"/products"}> */}
-                            Products
-                            {/* </Link> */}</h3>
+                        <h3 >Products</h3>
                         {isOpen && (
                             <div className="absolute text-black bg-white flex flex-col justify-evenly h-52 w-2xs font-medium z-20">
                                 <Link href={"/products/shingle"} className="h-1/3 hover:bg-purple-gradient p-2">

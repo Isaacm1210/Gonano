@@ -34,10 +34,10 @@ export default function Home() {
           <h1 className="text-5xl font-bold text-center my-5">Protection for your <span className="text-orange-gradient">Entire Home</span></h1>
           <p className="w-2/5 text-xl m-auto mb-10">Our nano coating solution consists of nano particles that transform the molecular structure of materials to modify permanently their properties, enhance their resistance and extend their lifespan by 10 to 15 years.</p>
           <div className="grid lg:grid-cols-2 grid-cols-1 justify-evenly m-auto gap-10 text-3xl text-midnight-blue w-4/5">
-            <ProductGrid image="/products/surface/shingles.jpg" title="Asphalt Shingles" desc="Protect Your shingles and add 10-15 years to its life" buttonLink="/products/shingle" buttonTitle="GoNano for Shingles" />
-            <ProductGrid image="/products/surface/Membrane-roof.webp" title="Elastometric Membrane" desc="Nano coatings for roof membranes" buttonLink="/products/shingle" buttonTitle="GoNano for Membranes" />
-            <ProductGrid image="/products/surface/concrete.jpg" title="Concrete Surfaces" desc="Protect Your shingles and add 10-15 years to its life" buttonLink="/products/concrete" buttonTitle="GoNano for Concrete" />
-            <ProductGrid image="/products/surface/wood.jpg" title="Wood Surfaces" desc="Protect Your shingles and add 10-15 years to its life" buttonLink="/products/wood" buttonTitle="GoNano for Wood" />
+            <ProductGrid image="/products/surface/Shingles.jpg" title="Asphalt Shingles" desc="Protect Your shingles and add 10-15 years to its life" buttonLink="/products/shingle" buttonTitle="GoNano for Shingles" />
+            <ProductGrid image="/products/surface/membrane-roof.webp" title="Elastometric Membrane" desc="Nano coatings for roof membranes" buttonLink="/products/shingle" buttonTitle="GoNano for Membranes" />
+            <ProductGrid image="/products/surface/Concrete.jpg" title="Concrete Surfaces" desc="Protect Your shingles and add 10-15 years to its life" buttonLink="/products/concrete" buttonTitle="GoNano for Concrete" />
+            <ProductGrid image="/products/surface/Wood.jpg" title="Wood Surfaces" desc="Protect Your shingles and add 10-15 years to its life" buttonLink="/products/wood" buttonTitle="GoNano for Wood" />
           </div>
         </section>
         <section id="extremeWeather" className="w-full py-20">

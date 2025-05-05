@@ -6,7 +6,7 @@ export default function Footer() {
 
             <div >
                 <Image
-                    src={"/Gonano_logo.svg"}
+                    src={"/Gonano_Logo.svg"}
                     width={125}
                     height={90}
                     alt="Gonano Logo"

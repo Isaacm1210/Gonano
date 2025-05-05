@@ -53,7 +53,7 @@ export default function Shingle() {
                     <p>Prevents mold, mildew lichen and efflorescence from accumulating on roofs.</p>
                 </div>
                 <div className="w-3/4 text-center m-auto h-[200px]">
-                    <Image src="/icons/Hail-icon.svg" width={200} height={200} alt="Increased Health Icon" className="max-w-[170px] w-1/4 m-auto mb-3" />
+                    <Image src="/icons/hail-icon.svg" width={200} height={200} alt="Increased Health Icon" className="max-w-[170px] w-1/4 m-auto mb-3" />
                     <h2 className="font-semibold">Hail</h2>
                     <p>Our treatment transforms typical Class 1 shingles into Class 3 or 4 shingles, meeting North American impact resistance standards.</p>
                 </div>
@@ -85,28 +85,28 @@ export default function Shingle() {
                 <Image src={"/products/cans/Shingle_Saver.png"} width={1936} height={2224} alt="Shing Saver Can" className="max-w-1/3 h-fit m-auto hidden md:block" />
                 <ul className="m-auto font-semibold flex justify-evenly text-center flex-col w-full gap-5 md:gap-0">
                     <li className="h-1/4 flex">
-                        <Image src="/icons/Protected_icon.svg" width={300} height={300} alt="Shield With Check Mark icon" className="max-w-[170px] w-1/4" />
+                        <Image src="/icons/Protected_Icon.svg" width={300} height={300} alt="Shield With Check Mark icon" className="max-w-[170px] w-1/4" />
                         <div className="my-auto text-left h-full w-2/3">
                             <h3 className="text-orange-gradient text-3xl">Fortify</h3>
                             <p className="text-xl">Significantly increase impact resistance, making your roof hailstorm ready.</p>
                         </div>
                     </li>
                     <li className="flex">
-                        <Image src="/icons/wind_icon.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
+                        <Image src="/icons/Wind_Icon.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
                         <div className="my-auto  text-left">
                             <h3 className="text-orange-gradient text-3xl">Enhance</h3>
                             <p className="text-xl">Boost wind resistance ensuring your shingles stay put in even extreme weather.</p>
                         </div>
                     </li>
                     <li className="flex">
-                        <Image src="/icons/repels_icon.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
+                        <Image src="/icons/Repels_Icon.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
                         <div className="my-auto  text-left">
                             <h3 className="text-orange-gradient text-3xl">Preserve</h3>
                             <p className="text-xl">Create a hydrophobic barrier that repels water and prevents moisture damage.</p>
                         </div>
                     </li>
                     <li className="flex">
-                        <Image src="/icons/Improves-roof-health_icon.svg" width={300} height={300} alt="Increased Health Icon" className="max-w-[170px] w-1/4 " />
+                        <Image src="/icons/Improves-roof-health_Icon.svg" width={300} height={300} alt="Increased Health Icon" className="max-w-[170px] w-1/4 " />
                         <div className="my-auto text-left">
                             <h3 className="text-orange-gradient text-3xl">Longevity</h3>
                             <p className="text-xl">Extend the life of your roof by up to 15 years with just one treatment.</p>
@@ -129,21 +129,21 @@ export default function Shingle() {
                 <Image src={"/products/cans/Revive_label.png"} width={1936} height={2224} alt="Shing Saver Can" className="max-w-1/3 h-fit m-auto hidden md:block" />
                 <ul className="m-auto font-semibold flex justify-evenly text-center flex-col w-full gap-5 md:gap-0">
                     <li className="h-1/4 flex">
-                        <Image src="/icons/Time_icon_dark.svg" width={300} height={300} alt="Shield With Check Mark icon" className="max-w-[170px] w-1/4" />
+                        <Image src="/icons/Time_Icon_dark.svg" width={300} height={300} alt="Shield With Check Mark icon" className="max-w-[170px] w-1/4" />
                         <div className="my-auto text-left h-full w-2/3">
                             <h3 className="text-orange-gradient text-3xl">Revive</h3>
                             <p className="text-xl">Bring back the strength and durability of your roof. </p>
                         </div>
                     </li>
                     <li className="flex">
-                        <Image src="/icons/Improves-roof-health_icon_dark.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
+                        <Image src="/icons/Improves-roof-health_Icon_dark.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
                         <div className="my-auto  text-left">
                             <h3 className="text-orange-gradient text-3xl">Extend</h3>
                             <p className="text-xl">Add an impressive 5-10 years to the lifespan of your roof.</p>
                         </div>
                     </li>
                     <li className="flex">
-                        <Image src="/icons/Protected_icon_dark.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
+                        <Image src="/icons/Protected_Icon_dark.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
                         <div className="my-auto  text-left">
                             <h3 className="text-orange-gradient text-3xl">Protect</h3>
                             <p className="text-xl">Shield your roof from the elements with superior Nanotechnology. </p>
@@ -166,28 +166,28 @@ export default function Shingle() {
                 <Image src={"/products/cans/Bio-boost.png"} width={1936} height={2224} alt="Shing Saver Can" className="max-w-1/3 h-fit m-auto hidden md:block" />
                 <ul className="m-auto font-semibold flex justify-evenly text-center flex-col w-full gap-5 md:gap-0">
                     <li className="h-1/4 flex">
-                        <Image src="/icons/Time_icon.svg" width={300} height={300} alt="Shield With Check Mark icon" className="max-w-[170px] w-1/4" />
+                        <Image src="/icons/Time_Icon.svg" width={300} height={300} alt="Shield With Check Mark icon" className="max-w-[170px] w-1/4" />
                         <div className="my-auto text-left h-full w-2/3">
                             <h3 className="text-orange-gradient text-3xl">Boosts Longevity</h3>
                             <p className="text-xl">Extend the life of your roof by up to 5 years.</p>
                         </div>
                     </li>
                     <li className="flex">
-                        <Image src="/icons/repels_icon.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
+                        <Image src="/icons/Repels_Icon.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
                         <div className="my-auto  text-left">
                             <h3 className="text-orange-gradient text-3xl">Resists Damage</h3>
                             <p className="text-xl">Helps defend against weather, UV exposure and everyday ware.</p>
                         </div>
                     </li>
                     <li className="flex">
-                        <Image src="/icons/deep penetration_icon.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
+                        <Image src="/icons/Deep penetration_Icon.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
                         <div className="my-auto  text-left">
                             <h3 className="text-orange-gradient text-3xl">Restores Vitality</h3>
                             <p className="text-xl">Rehydrates shingles by infusing bio-oil and enhancing flexibility.</p>
                         </div>
                     </li>
                     <li className="flex">
-                        <Image src="/icons/cost savings_icon.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
+                        <Image src="/icons/Cost savings_Icon.svg" width={300} height={300} alt="Repels Water Icon" className="max-w-[170px] w-1/4" />
                         <div className="my-auto  text-left">
                             <h3 className="text-orange-gradient text-3xl">Saves Money</h3>
                             <p className="text-xl">Reliable performance at a cost-effective price.</p>
