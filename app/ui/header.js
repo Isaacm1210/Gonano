@@ -45,10 +45,6 @@ export default function Header() {
                             </div>
                         )}
                     </div>
-
-
-
-
                     <h3 className="hover:text-purple-gradient h-8 py-1">
                         <Link href={"/about"}>
                             About
