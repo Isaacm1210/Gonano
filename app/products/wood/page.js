@@ -25,7 +25,7 @@ export default function Wood() {
             </div>
         </section>
         <section className="sm:p-20 px-5 py-20 bg-offWhite text-black text-center border-b-4 border-purple-gradient">
-            <h1 className="sm:text-6xl text-4xl font-bold">The Only Wood Sealer You'll Need</h1>
+            <h1 className="sm:text-6xl text-4xl font-bold">The Only Wood Sealer You&apos;ll Need</h1>
             <p className="md:w-3/5 m-auto mt-5 text-lg">
                 GoNano&apos;s wood sealant is the ultimate solution for protecting your wood surfaces from the harshest weather and contaminants.
                 Our premium wood sealer penetrates deep into the wood, providing robust defense against various damaging elements.

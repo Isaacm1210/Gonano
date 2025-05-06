@@ -28,8 +28,8 @@ export default function Concrete() {
             <h1 className="sm:text-6xl text-4xl font-bold">Protection with GoNano&apos;s Concrete Sealer</h1>
             <p className="md:w-3/5 m-auto mt-5 text-lg">
                 Concrete surfaces face various threats, including water intrusion, salt, UV radiation, and contaminants, which can lead to cracking and deterioration over time.
-                GoNano's concrete sealant, enhanced with advanced nanotechnology, offers a revolutionary solution to protect and extend the lifespan of your concrete surfaces.
-                Water is one of the primary culprits behind concrete damage. GoNano's concrete sealant protects against water and moisture intrusion that can weaken your concrete, especially during freeze-thaw cycles.
+                GoNano&apos;s concrete sealant, enhanced with advanced nanotechnology, offers a revolutionary solution to protect and extend the lifespan of your concrete surfaces.
+                Water is one of the primary culprits behind concrete damage. GoNano&apos;s concrete sealant protects against water and moisture intrusion that can weaken your concrete, especially during freeze-thaw cycles.
                 Additionally, our sealers prevent contaminants like salt and chlorine from penetrating and deteriorating your concrete surfaces.
                 This is particularly beneficial for foundations and surfaces exposed to de-icing salts.
                 Our concrete sealer also protects against UV radiation by reflecting harmful rays, limiting heat absorption, and slowing down the aging process.
