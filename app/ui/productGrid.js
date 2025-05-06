@@ -12,7 +12,7 @@ export default function ProductGrid({ image, title, desc, buttonLink, buttonTitl
                     <div className="p-5 flex flex-col justify-evenly h-full">
                         <h3 className="font-semibold">{title}</h3>
                         <h1 className="text-xl">{desc}</h1>
-                        <div className="mt-auto h-fit">
+                        <div className="mt-auto h-fit text-lg">
                             <Button link={buttonLink} title={buttonTitle} />
                         </div>
                     </div>
