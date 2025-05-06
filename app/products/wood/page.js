@@ -3,16 +3,15 @@ import ItemCard from "@/app/ui/itemCard";
 import QualityCard from "@/app/ui/qualityCard";
 import Image from "next/image";
 
-
 export default function Wood() {
     return <div className="sm:pt-24">
         <section id="Heading" className="min-h-96 bg-[url(/products/surface/WoodenFence.jpg)] bg-cover -mt-24 border-b-4 border-purple-gradient">
             <div className="w-full min-h-96  bg-linear-to-r from-midnight-blue via-midnight-blue/90 to-midnight-blue/40 pt-24">
-                <div className="p-20 mb-20">
-                    <h1 className="text-6xl font-bold mb-4">Wood Sealants</h1>
-                    <h2 className="text-xl ml-20">Total Protection For Your Wood Surfaces</h2>
+                <div className="xs:p-20 px-5 py-20 xs:mb-20">
+                    <h1 className="sm:text-6xl text-5xl font-bold mb-4 ">Wood Sealants</h1>
+                    <h2 className="text-xl sm:ml-20 ">Total Protection For Your Wood Surfaces</h2>
                 </div>
-                <div className="flex justify-evenly py-10">
+                <div className="flex lg:flex-row flex-col justify-evenly xs:p-10 p-5 gap-3">
                     <ItemCard
                         title={"Total Surface Protection"}
                         desc={"Our advanced nano-based solution penetrates deep into the wood, ensuring long-lasting durability from the inside out."} />
@@ -25,34 +24,34 @@ export default function Wood() {
                 </div>
             </div>
         </section>
-        <section className="p-20 bg-offWhite text-black text-center border-b-4 border-purple-gradient">
-            <h1 className="text-6xl font-bold">The Only Wood Sealer You'll Need</h1>
-            <p className="w-3/5 m-auto mt-5 text-lg">
+        <section className="sm:p-20 px-5 py-20 bg-offWhite text-black text-center border-b-4 border-purple-gradient">
+            <h1 className="sm:text-6xl text-4xl font-bold">The Only Wood Sealer You'll Need</h1>
+            <p className="md:w-3/5 m-auto mt-5 text-lg">
                 GoNano&apos;s wood sealant is the ultimate solution for protecting your wood surfaces from the harshest weather and contaminants.
                 Our premium wood sealer penetrates deep into the wood, providing robust defense against various damaging elements.
                 With just one treatment, you can ensure your wood remains resilient and beautiful for years to come. Say goodbye to frequent maintenance and enjoy the peace of mind that comes with superior protection.
             </p>
-            <div className="grid grid-cols-2 gap-5 w-3/5 m-auto mt-12">
+            <div className="grid md:grid-cols-2 gap-5 m-auto xl:w-3/5 mt-12">
                 <QualityCard title={"Water and moisture"} desc={"Protects against water and moisture intrusion that damages wood. Our wood sealant creates a waterproof barrier, preventing water from seeping in and causing damage."} />
                 <QualityCard title={"Grease and stains"} desc={"Prevents grease and stains from becoming embedded in the wood. GoNano&apos;s wood sealer ensures that your exterior wood surfaces stay cleaner and maintain their natural beauty longer."} />
                 <QualityCard title={"Mold and mildew"} desc={"Prevents the growth and proliferation of plants responsible for mold and mildew. Our advanced wood sealant keeps your wood free from mold and mildew, enhancing its durability."} />
                 <QualityCard title={"UV rays"} desc={"Reflects UV rays to limit heat absorption and aging. By reflecting harmful UV rays, our wood sealer reduces heat absorption and slows down the aging process of your wood surfaces."} />
             </div>
         </section>
-        <section className="flex justify-evenly p-20">
-            <div className="w-[30%] m-auto">
+        <section className="flex md:flex-row flex-col flexjustify-evenly xs:p-20 px-5 py-20">
+            <div className="sm:w-[30%] m-auto">
                 <Image src={"/products/cans/Wood Saver Can.png"} width={4000} height={4000} alt="" />
             </div>
-            <div className="w-1/3 m-auto">
-                <h3 className="text-4xl font-semibold">Millions of nanoparticles.</h3>
-                <h3 className="text-4xl font-semibold">A formidable technology.</h3>
+            <div className="lg:w-1/3 md:w-1/2 m-auto">
+                <h3 className="sm:text-4xl text-3xl font-semibold">Millions of nanoparticles.</h3>
+                <h3 className="sm:text-4xl text-3xl font-semibold">A formidable technology.</h3>
                 <p className="w-4/5 my-5 text-lg">
                     Our nanotechnology solution is made up of nanoparticles that transform the molecular structure of wood to enhance its properties, double its strength and extend its lifespan by 5 to 7 years.
                 </p>
                 <Button link={"/science"} title={"Learn More"} />
             </div>
         </section>
-        <section className="bg-offWhite p-20">
+        <section className="bg-offWhite xs:p-20 px-5 py-20">
             <div className="w-32 p-5 rounded-2xl mx-auto bg-white -mt-36 shadow-[0_0_7px] shadow-black/50">
                 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#675ce7">
                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
@@ -64,9 +63,9 @@ export default function Wood() {
                 </svg>
             </div>
             <div className="mt-10 text-black text-center">
-                <h1 className="text-6xl font-bold">5 years.</h1>
-                <h1 className="text-6xl font-bold">Guaranteed.*</h1>
-                <div className="w-1/2 m-auto text-lg">
+                <h1 className="sm:text-6xl xs:text-4xl text-3xl font-bold">5 years.</h1>
+                <h1 className="sm:text-6xl xs:text-4xl text-3xl  font-bold">Guaranteed.*</h1>
+                <div className="sm:w-1/2 m-auto text-lg">
                     <p className="my-10">
                         Our promise: GoNano technology will protect your wood surfaces and you won&apos;t have to replace them for 5 to 7 years.
                     </p>

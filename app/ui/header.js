@@ -23,13 +23,17 @@ export default function Header() {
 
                 </div>
                 <div className="w-3/5 flex justify-evenly font-semibold">
-                    <div className="hover:text-purple-gradient cursor-default h-8 py-1" onClick={() => setIsOpen(!isOpen)}>
+                    <div className="hover:text-purple-gradient cursor-default h-8 py-1" onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
                         <h3 >Products</h3>
                         {isOpen && (
-                            <div className="absolute text-black bg-white flex flex-col justify-evenly h-52 w-2xs font-medium z-20">
+                            <div className="absolute text-black bg-white flex flex-col justify-evenly min-h-52 w-2xs font-medium z-20">
                                 <Link href={"/products/shingle"} className="h-1/3 hover:bg-purple-gradient p-2">
                                     <h2>Shingle Saver</h2>
                                     <p className="text-sm font-normal my-auto">Extend the life of your Shingles</p>
+                                </Link>
+                                <Link href={"/products/membrane"} className="h-1/3 hover:bg-purple-gradient p-2">
+                                    <h2>Elastometric Membrane</h2>
+                                    <p className="text-sm font-normal">Transform your roof Membrane</p>
                                 </Link>
                                 <Link href={"/products/wood"} className="h-1/3 hover:bg-purple-gradient p-2">
                                     <h2>Wood Saver</h2>
@@ -53,12 +57,7 @@ export default function Header() {
                             Science
                         </Link>
                     </h3>
-                    <h3 className="hover:text-purple-gradient h-8 py-1">
-                        <Link href={"/articles"}>
-                            Articles
-                        </Link>
-                    </h3>
-                    <h3 className="hover:text-purple-gradient h-8 py-1">PLACEHOLDER</h3>
+                    
                 </div>
 
             </div>
