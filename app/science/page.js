@@ -8,15 +8,17 @@ export const metadata = {
 
 export default function Science() {
     return <div className="w-full sm:pt-24">
-        <section id="title" className="min-h-96 xs:p-20 pt-20 px-2 w-full">
-            <h1 className="w-fit p-2 bg-offWhite text-dark-purple font-bold rounded-2xl m-auto text-center">The Science Behind GoNano</h1>
-            <div className="mb-30 mt-10 mx-auto lg:w-1/2 text-center">
-                <h1 className="text-4xl font-semibold mb-10">The Last Roof You&apos;ll Ever Need.</h1>
-                <p className=" text-xl">
-                    GoNano is the first and only North American company to bring to market a sealant that replaces all sealants.
-                    Having said this, the technology behind GoNano spans decades and has gone through critical scientific and peer review.
-                    See why nanosilica replaces all other traditional asphalt shingle roofs for its durability and life-cycle cost savings.
-                </p>
+        <section id="title" className="min-h-96  w-full bg-[url(/products/surface/Shingles.jpg)] bg-center">
+            <div className="w-full min-h-96  bg-linear-to-r from-midnight-blue via-midnight-blue/90 to-midnight-blue/60 xs:p-20 pt-20 px-2">
+                <h1 className="w-fit p-2 bg-offWhite text-dark-purple font-bold rounded-2xl m-auto text-center">The Science Behind GoNano</h1>
+                <div className="mb-30 mt-10 mx-auto lg:w-1/2 text-center">
+                    <h1 className="text-4xl font-semibold mb-10">The Last Roof You&apos;ll Ever Need.</h1>
+                    <p className=" text-xl">
+                        GoNano is the first and only North American company to bring to market a sealant that replaces all sealants.
+                        Having said this, the technology behind GoNano spans decades and has gone through critical scientific and peer review.
+                        See why nanosilica replaces all other traditional asphalt shingle roofs for its durability and life-cycle cost savings.
+                    </p>
+                </div>
             </div>
         </section>
         <section id="Sealants" className="min-h-screen bg-white text-midnight-blue text-center py-30">
@@ -85,6 +87,20 @@ export default function Science() {
             </div>
             <Image src={'/Shingle_Reaction.jpg'} width={1180} height={520} alt="Shingle Modification Process" className="m-auto w-11/12 lg:w-3/5" />
         </section>
+        <section id="s1Particles" className="min-h-fit text-center  bg-[url(/products/surface/Crane_application.png)] bg-center bg-cover">
+            <div className="bg-midnight-blue/90 w-full h-full py-30">
+                <h1 className="text-lg font-semibold">The result: a unified barrier against strains caused by environmental factors</h1>
+                <p className="w-3/5 m-auto py-5">
+                    The evolution of GoNano technology created a shift in how sealants are approached.
+                    A regular shingle is sealed with oil, filling up the space in between shingles.
+                    GoNano modifies the molecular structure of asphalt shingles permanently.
+                    After application, a reaction occurs within each shingle.
+                    This reaction fuses both organic and inorganic material, creating new chemical links, called S1 particles.
+                    These S1 particles link shingle granules together, working from the inside out, creating a unified barrier against environmental strains and saves you money by extending the lifespan of your roof.
+                </p>
+                <Image src={"/S1ParticleDiagram.jpg"} width={1050} height={460} alt="S1 Particle Display" className="m-auto" />
+            </div>
+        </section>
         <section id="Advantages" className="bg-purple-gradient min-h-fit py-30 text-center w-full">
             <h1 className="sm:text-6xl xs:text-5xl text-4xl font-bold my-5">GoNano Advantages</h1>
             <div className="flex justify-evenly lg:w-4/5 m-auto pt-2 sm:flex-row flex-col">
@@ -119,7 +135,10 @@ export default function Science() {
                         <li>&quot;No harm to aquatic organisms&quot;</li>
                     </ol>
                 </div>
-
+                <p className="xs:text-2xl text-lg mt-10">
+                    In the coming years, the effects of climate change will mean an increase in severity of hail storms.
+                    Impact-resistant shingles will be a necessity for protection against increased frequency and strength of future storms.
+                </p>
                 <p className="xs:text-2xl text-lg mt-10">
                     GoNano is therefore <span className="font-bold">safe for the environment and on human health.</span>
                 </p>
