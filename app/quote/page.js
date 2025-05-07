@@ -2,7 +2,7 @@
 
 export default function Quote() {
     return (
-        <div className="sm:pt-24">
+        <div className="pt-24">
             <h1 className="text-3xl font-semibold text-center">Get your 100% Free Quote</h1>
             <div className="bg-offWhite text-black flex flex-col w-1/4 p-10 m-auto my-10 rounded-2xl">
                 <h2 className="text-xl font-medium text-center">Get your Quote</h2>

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 
 export default function Wood() {
-    return <div className="sm:pt-24">
+    return <div className="pt-24">
         <section id="Heading" className="min-h-96 bg-[url(/products/surface/membrane-roof.webp)] bg-cover -mt-24 border-b-4 border-purple-gradient">
             <div className="w-full min-h-96  bg-linear-to-r from-midnight-blue via-midnight-blue/90 to-midnight-blue/40 pt-24">
                 <div className="xs:p-20 px-5 py-20 xs:mb-20">

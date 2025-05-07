@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "./ui/header";
 import Footer from "./ui/footer";
+import MobileHeader from "./ui/mobileHeader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         className={`${montserrat.variable} antialiased h-full w-full`}
       >
         <Header/>
+        <MobileHeader />
         <div className="">
           {children}
         </div>

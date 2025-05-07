@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function About() {
-    return <div className="sm:pt-24">
+    return <div className="pt-24">
         <section id="AboutUs" className="w-full bg-white text-dark-purple text-lg xs:p-20 py-20 px-5">
             <div className="lg:w-3/5 xl:w-2/5  text-center m-auto ">
                 <h1 className="sm:text-5xl text-4xl font-bold mb-10">Meet the Company</h1>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Shingle() {
 
-    return <div className="w-full h-full sm:pt-24">
+    return <div className="w-full h-full pt-24">
         <section id="Product" className="w-full h-fit">
             <div className="flex lg:w-4/5 lg:p-0 justify-evenly m-auto mb-0 gap-2 my-10 md:flex-row flex-col">
                 <div className="bg-[url(/products/Shingle-Saver-Pattern.png)] bg-cover md:w-1/3 md:h-80 h-60 hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.2)] border-0">
