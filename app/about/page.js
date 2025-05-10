@@ -4,6 +4,7 @@ export default function About() {
     return <div className="pt-24">
         <section id="AboutUs" className="w-full bg-white text-dark-purple text-lg xs:p-20 py-20 px-5">
             <div className="lg:w-3/5 xl:w-2/5  text-center m-auto ">
+            <Image src={"/NanoRestoLogo.png"} width={282} height={282} alt="Nano restoration Logo" className="m-auto bg-midnight-blue rounded-[50%] p-1"/>
                 <h1 className="sm:text-5xl text-4xl font-bold mb-10">Meet the Company</h1>
                 <p>Welcome to <span className="font-semibold">Nano Restoration!</span></p>
                 <br />

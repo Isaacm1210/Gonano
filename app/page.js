@@ -9,8 +9,12 @@ export default function Home() {
   return (
     <div className="w-lvw pt-24">
       <main className="bg-midnight-blue z-10">
-        <section id="Home" className="h-[100vh] w-full flex flex-col justify-evenly items-center sm:text-4xl text-2xl font-semibold bg-[url(/Roof-Spray-2.PNG)] bg-cover">
+        <section id="Home" className="h-[100vh] w-full flex flex-col justify-start gap-30 items-center sm:text-4xl text-2xl font-semibold bg-[url(/Roof-Spray-2.PNG)] bg-cover">
+
           <div className="text-center w-2/3 ">
+            <div className="">
+              <Image src={"/NanoRestoLogo.png"} width={300} height={300} alt="Nano restoration Logo" className="m-auto p-5"/>
+            </div>
             <p className="text-center">
               Nano Coatings and Sealants for
             </p>
@@ -21,7 +25,7 @@ export default function Home() {
               <span className="">MEMBRANES</span>
             </div>
           </div>
-          <div className="text-center sm:w-fit w-4/5">
+          <div className="text-center sm:w-fit w-4/5 mt-10">
             <p>
               Add up to <span className="font-bold text-orange-gradient">15 Years</span> of life to your roof
             </p>
@@ -51,16 +55,19 @@ export default function Home() {
                 <li className="flex"><p className="w-10 text-purple-gradient font-bold">03</p> Extreme heat</li>
                 <li className="flex"><p className="w-10 text-purple-gradient font-bold">04</p> Water and ice</li>
               </ol>
+              <div className="w-fit mt-5">
+                <Button link={"/quote"} title={"Get a Quote"} />
+              </div >
             </div>
             <div className="md:w-1/2 w-4/5 m-auto">
-              <Image src={"/products/surface/alexander-andrews-unsplash-Rainy.jpg"} width={1920} height={1280} alt="Heavy Rain on shingles" className="rounded-2xl"/>
+              <Image src={"/products/surface/alexander-andrews-unsplash-Rainy.jpg"} width={1920} height={1280} alt="Heavy Rain on shingles" className="rounded-2xl" />
             </div>
           </div>
         </section>
         <section id="shingleProtection" className="w-full bg-offWhite text-black py-20">
           <div className="flex justify-evenly my-10 m-auto md:flex-row flex-col-reverse">
             <div className="md:w-1/2 w-4/5 m-auto">
-              <Image src={"/products/surface/Crane_application.png"} width={1920} height={1280} alt="Heavy Rain on shingles" className="rounded-2xl"/>
+              <Image src={"/products/surface/Crane_application.png"} width={1920} height={1280} alt="Heavy Rain on shingles" className="rounded-2xl" />
             </div>
             <div className="md:w-1/3 w-4/5 m-auto">
               <h1 className="text-4xl lg:text-6xl font-semibold">Roofing Nanosealers</h1>
@@ -72,15 +79,15 @@ export default function Home() {
                 <li className="flex"><p className="w-10 text-purple-gradient font-bold">04</p> Permanent protection</li>
               </ol>
               <div className="flex gap-5 py-5">
-                <Button link={"/products/shingle"} title={"Shingle Sealants"}/>
-                <Button link={"/products/membranes"} title={"Membrane Sealants"}/>
+                <Button link={"/products/shingle"} title={"Shingle Sealants"} />
+                <Button link={"/products/membranes"} title={"Membrane Sealants"} />
               </div>
             </div>
           </div>
         </section>
         <section id="woodConcrete" className="w-full bg-offWhite text-black py-20">
           <div className="flex justify-evenly my-10  m-auto md:flex-row flex-col">
-          <div className="md:w-1/3 w-4/5 m-auto">
+            <div className="md:w-1/3 w-4/5 m-auto">
               <h1 className="text-4xl lg:text-6xl font-semibold">Wood and Concrete Nanosealers</h1>
               <h2 className="my-5 text-xl ">Protect your roof permanently and extend its lifespan. </h2>
               <ol className="lg:text-xl text-lg">
@@ -90,12 +97,12 @@ export default function Home() {
                 <li className="flex"><p className="w-10 text-purple-gradient font-bold">04</p> Permanent protection</li>
               </ol>
               <div className="flex gap-5 py-5">
-                <Button link={"/products/wood"} title={"Wood Sealants"}/>
-                <Button link={"/products/concrete"} title={"Concrete Sealants"}/>
+                <Button link={"/products/wood"} title={"Wood Sealants"} />
+                <Button link={"/products/concrete"} title={"Concrete Sealants"} />
               </div>
             </div>
             <div className="md:w-1/2 w-4/5 m-auto">
-              <Image src={"/products/surface/jonathan-cooper-porch.jpg"} width={1920} height={1240} alt="Heavy Rain on shingles" className="rounded-2xl"/>
+              <Image src={"/products/surface/jonathan-cooper-porch.jpg"} width={1920} height={1240} alt="Heavy Rain on shingles" className="rounded-2xl" />
             </div>
           </div>
         </section>

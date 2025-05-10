@@ -46,7 +46,10 @@ export default function Wood() {
                 <p className="w-4/5 my-5 text-lg">
                     GoNano restores the original properties and waterproofing of your membrane.
                 </p>
-                <Button link={"/science"} title={"Learn More"} />
+                <div className="flex gap-10">
+                    <Button link={"/science"} title={"Learn More"} />
+                    <Button link={"/quote"} title={"Free Quote"} />
+                </div>
             </div>
         </section>
         <section className="bg-offWhite xs:p-20 px-5 py-20">
@@ -65,9 +68,12 @@ export default function Wood() {
                 <h1 className="sm:text-6xl xs:text-4xl text-3xl  font-bold">Guaranteed.*</h1>
                 <div className="sm:w-1/2 m-auto text-lg">
                     <p className="my-5">
-                    Our promise: GoNano technology will extend the lifespan of your roof so you won’t have to replace it for the next 10 to 15 years.
+                        Our promise: GoNano technology will extend the lifespan of your roof so you won’t have to replace it for the next 10 to 15 years.
                     </p>
                     <p className="font-medium">*certain conditions apply</p>
+                    <div className="m-auto w-fit mt-5">
+                        <Button link={"/quote"} title={"Get Youre Free Quote"} />
+                    </div>
                 </div>
             </div>
 

@@ -51,7 +51,11 @@ export default function Concrete() {
                 <p className="w-4/5 my-5 text-lg">
                     Our nanotechnology solution is made up of nanoparticles that transform the molecular structure of materials to enhance their properties, double their strength and extend their lifespan by 10 years.
                 </p>
-                <Button link={"/science"} title={"Learn More"} />
+                <div className="flex gap-10">
+                    <Button link={"/science"} title={"Learn More"} />
+                    <Button link={"/quote"} title={"Free Quote"} />
+                </div>
+
             </div>
         </section>
         <section className="bg-offWhite xs:p-20 px-5 py-20">
@@ -76,6 +80,9 @@ export default function Concrete() {
                         GoNano products are designed to last, and they&apos;ll keep working incredibly well for years and years. With a warranty that covers all of the most common causes of wear-and-tear &ndash; from peeling to high UV exposure &ndash; you can rest assured that your concrete surfaces are protected with the best technology.
                     </p>
                     <p className="font-medium">*certain conditions apply</p>
+                    <div className="m-auto w-fit mt-5">
+                        <Button link={"/quote"} title={"Get Youre Free Quote"} />
+                    </div>
                 </div>
             </div>
 

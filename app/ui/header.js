@@ -62,6 +62,9 @@ export default function Header() {
                         <Button link={"/quote"} title={"Free Quote"}/>
                     </div>
                 </div>
+                <div>
+                    <Image src={"/NanoRestoLogo.png"} width={282} height={282} alt="Nano restoration logo" className="max-h-20 max-w-20"/>
+                </div>
 
             </div>
         </div>

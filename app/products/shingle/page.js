@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Button from "@/app/ui/button";
 export default function Shingle() {
 
     return <div className="w-full h-full pt-24">
@@ -70,6 +70,9 @@ export default function Shingle() {
                     <h2 className="font-semibold">Water and ice</h2>
                     <p>Our solution improves drainage by enhancing the hydrophobic properties of asphalt shingles, protecting your roof from water and ice damage.</p>
                 </div>
+            </div>
+            <div className="m-auto w-fit mt-20">
+                <Button link={"/quote"} title={"Get Youre Free Quote"} />
             </div>
         </section>
         <section id="ShingleSaver" className="min-h-screen  py-28 border-b-4 border-purple-gradient">
