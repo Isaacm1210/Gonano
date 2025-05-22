@@ -14,17 +14,21 @@ export default function MobileHeader() {
         if (!isOpen) {
             setProductTap({ height: '0px', })
             setShow({ translate: "0 -328px"})
+            setShow({ height: "328px"})
             setShowProducts(false)
         } else {
             setShow({ translate: '0 0px'})
+            setShow({ height: "0px"})
         }
         setIsOpen(!isOpen)
     }
     function openProducts() {
         if (showProducts) {
             setProductTap({ height: '0px', })
+            setShow({ height: "328px"})
         } else {
             setProductTap({ height: '112px' })
+            setShow({ height: "420px"})
         }
         setShowProducts(!showProducts)
     }
@@ -59,8 +63,8 @@ export default function MobileHeader() {
 
                 </div>
             </div>
-            <div className="overflow-hidden">
-                <div className="w-full bg-midnight-blue/95 transition-all duration-500 overflow-hidden ease-in-out min-h-fit pt-5" style={show}>
+            <div className="transition-all duration-500 overflow-hidden h-fit" style={show}>
+                <div className="w-full bg-midnight-blue/95 transition-all duration-500 overflow-hidden ease-in-out min-h-fit pt-5">
                     <div className="px-10 mb-10" onClick={() => open()}>
                         <Button link={"/quote"} title={"Free Quote"} />
                     </div>
